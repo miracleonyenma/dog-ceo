@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-slate-800;
+}
+
+.cta {
+  @apply p-2 px-4 bg-white hover:bg-slate-50 focus:border-slate-200 border border-slate-100 active:shadow-inner rounded-full;
+}
+
+.cta:has(.icon) {
+  @apply !p-3;
+}
+
+.icon {
+  @apply w-6 h-6 text-slate-800;
+}
+
+.site-section {
+  @apply p-4;
+}
+
+.site-section > .wrapper {
+  @apply w-full max-w-6xl mx-auto;
+}
