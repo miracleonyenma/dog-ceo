@@ -1,6 +1,11 @@
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
 <template>
   <div class="site-logo">
-    <h1>Dog CEO</h1>
+    <RouterLink to="/">
+      <h1>Dog CEO</h1>
+    </RouterLink>
   </div>
 </template>
 <style scoped>

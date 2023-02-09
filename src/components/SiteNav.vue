@@ -12,9 +12,9 @@ const isNavActive = computed(() => store.state.isNavActive);
         <li class="link-item">
           <RouterLink to="/">Home</RouterLink>
         </li>
-        <li class="link-item">
+        <!-- <li class="link-item">
           <RouterLink to="/">Breeds</RouterLink>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
